@@ -77,7 +77,7 @@ Fun fact:
 
 I basically built it off of [Keystone JS](https://www.keystonejs.com/) using the `keystone-app` tool available in npm . Dockerfile has been documented [here](https://www.keystonejs.com/guides/deployment/#docker). of course I had to set up a [`cookieSecret`](https://www.keystonejs.com/guides/production/#cookie-secret) cuz that's a MUST HAVE in production environemnt.
 
-Mongodb `adapterURI` should now point to the mongodb://mongo:270127/my-sample-db . For testing purpoes tho I'd recommend having your own [Atlas](https://www.mongodb.com/cloud/atlas) . makes things much easier ! Optionally you can install [Compass](https://www.mongodb.com/products/compass) for browsing the UI in a more clean way however since Keystone offers an admin UI you could just visit [http://localhost:3000/admin](http://localhost:3000/admin) which is the intended way to deal with headless CMSs in general 
+Mongodb `adapterURI` should now point to the mongodb://mongo:270127/my-sample-db . For testing purpoes tho I'd recommend having your own [Atlas](https://www.mongodb.com/cloud/atlas) . makes things much easier ! Optionally you can install [Compass](https://www.mongodb.com/products/compass) for browsing DB in a more clean way however since Keystone offers an admin UI you could just visit [http://localhost:3000/admin](http://localhost:3000/admin) which is the intended way to deal with headless CMSs in general 
 
 I think I'll leave you guys there :)
 Peace out
