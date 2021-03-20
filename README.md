@@ -68,4 +68,15 @@ Output on my local machine -
 Alrighty !
 until next time:)
 
+---------------------------
 
+Fun fact:
+
+
+`tmaddy69/todo-app` is actually my own image (no pun intended) so if anybody is interested in really customizing it you can feel free to *fleep* me. 
+
+I basically built it off of [Keystone JS](https://www.keystonejs.com/) using the `keystone-app` tool available in npm . Dockerfile has been documented [here](https://www.keystonejs.com/guides/deployment/#docker). of course I had to [`cookieSecret`](https://www.keystonejs.com/guides/production/#cookie-secret) cuz that's a MUST HAVE in production environemnt.
+
+Mongodb `adapterURI` should point to the mongodb://mongo:270127/my-sample-db which of course is the other container that we spin up.
+
+✌️
