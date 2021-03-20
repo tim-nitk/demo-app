@@ -77,6 +77,6 @@ Fun fact:
 
 I basically built it off of [Keystone JS](https://www.keystonejs.com/) using the `keystone-app` tool available in npm . Dockerfile has been documented [here](https://www.keystonejs.com/guides/deployment/#docker). of course I had to [`cookieSecret`](https://www.keystonejs.com/guides/production/#cookie-secret) cuz that's a MUST HAVE in production environemnt.
 
-Mongodb `adapterURI` should point to the mongodb://mongo:270127/my-sample-db which of course is the other container that we spin up.
+Mongodb `adapterURI` should now point to the mongodb://mongo:270127/my-sample-db 
 
 ✌️
