@@ -1,4 +1,4 @@
-Hey there ya'll , I decided to make a gist cuz its tough to format messages on fleep 
+Hey there ya'll , I decided to make a readme cuz its tough to format messages on fleep 
 anyways so there is this `docker-compose.yaml` 
 
 ```yaml
@@ -52,10 +52,15 @@ Steps to deploy on Kubernetes
 4. `kubectl get po`
 
 but of course.... we bootstrapped our own kubernetes so I am not entirely sure how to get around 
-*wihtout using kubectl* :P
+**without using kubectl** :P
 
 I think that's it for now :) WIll be updated with more details if necessary
 
 Output on my local machine - 
 
 ![image info](https://i.ibb.co/s19WMpt/boring-todo-list.png)
+
+Alrighty !
+until next time:)
+
+
